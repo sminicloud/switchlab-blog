@@ -114,9 +114,9 @@ analytics:
 # Site Author
 author:
   name             : "sMiniCloud"
-  avatar           : "/assets/images/profile.jpg"
+  # avatar           : "/assets/images/profile.jpg"
   bio              : "One keystroke away from cloud-ready code."
-  location         : "Somewhere"
+  location         : "Sydney, NSW, Australia"
   email            :
   links:
     - label: "Email"
