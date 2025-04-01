@@ -1,7 +1,16 @@
 ---
-layout: default
-title: About Me
 permalink: /about/
+title: "About"
+excerpt: "I'm a backend developer with a passion for mechanical keyboards. Currently based in Australia, I combine my skills in IT and development to create innovative solutions."
+layouts_gallery:
+  - url: /assets/images/my-keyboard.png
+    image_path: /assets/images/my-keyboard.png
+    alt: "Custom mechanical keyboard"
+  - url: /assets/images/project-example.png
+    image_path: /assets/images/project-example.png
+    alt: "Example of a project I worked on"
+last_modified_at: 2025-04-01
+toc: true
 ---
 
 ## Hi, I'm Soonmin!
