@@ -3,12 +3,15 @@ permalink: /about/
 title: "About"
 excerpt: "I'm a backend developer with a passion for mechanical keyboards. Currently based in Australia, I combine my skills in IT and development to create innovative solutions."
 layouts_gallery:
-  - url: /assets/images/my-keyboard.png
-    image_path: /assets/images/my-keyboard.png
-    alt: "Custom mechanical keyboard"
-  - url: /assets/images/project-example.png
-    image_path: /assets/images/project-example.png
-    alt: "Example of a project I worked on"
+  - url: /assets/images/mm-layout-splash.png
+    image_path: /assets/images/mm-layout-splash.png
+    alt: "splash layout example"
+  - url: /assets/images/mm-layout-single-meta.png
+    image_path: /assets/images/mm-layout-single-meta.png
+    alt: "single layout with comments and related posts"
+  - url: /assets/images/mm-layout-archive.png
+    image_path: /assets/images/mm-layout-archive.png
+    alt: "archive layout example"
 last_modified_at: 2025-04-01
 toc: true
 ---
