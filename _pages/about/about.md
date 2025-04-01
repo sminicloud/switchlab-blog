@@ -10,6 +10,7 @@ layouts_gallery:
     image_path: /assets/images/project-example.png
     alt: "Example of a project I worked on"
 last_modified_at: 2025-04-01
+author_profile: true
 toc: true
 ---
 
