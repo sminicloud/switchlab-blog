@@ -1,3 +1,6 @@
+---
+---
+
 <!doctype html>
 {% include copyright.html %}
 <html lang="{{ site.locale | replace: "_", "-" | default: "en" }}" class="no-js">
@@ -10,18 +13,9 @@
     {% include_cached skip-links.html %}
     {% include_cached masthead.html %}
 
-    <!-- Main content and sidebar -->
-    <div class="content-wrapper">
-      <div class="sidebar">
-        {% include sidebar.html %} <!-- 사이드바 포함 -->
-      </div>
-
-      <div class="main-content">
-        <div class="initial-content">
-          {{ content }}
-          {% include after-content.html %}
-        </div>
-      </div>
+    <div class="initial-content">
+      {{ content }}
+      {% include after-content.html %}
     </div>
 
     {% if site.search == true %}

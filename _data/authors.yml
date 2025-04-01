@@ -1,0 +1,17 @@
+# Authors
+
+sMiniCloud:
+  name        : "Soonmin Kim"
+  bio         : "One keystroke away from cloud-ready code."
+  location    : "Sydney, NSW, Australia"
+  avatar      : ""
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:soonmin.kim34@gmail.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/sminicloud"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/soonmin-kim/"
