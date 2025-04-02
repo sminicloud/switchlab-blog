@@ -113,7 +113,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "sMiniCloud"
+  name             : "Soonmin Kim"
   # avatar           : "/assets/images/profile.jpg"
   bio              : "One keystroke away from cloud-ready code."
   location         : "Sydney, NSW, Australia"
@@ -121,13 +121,13 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:soonmin.kim34@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/sminicloud"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      # url: "https://www.linkedin.com/in/your-profile"
+      url: "https://www.linkedin.com/in/soonmin-kim/"
 
 # Site Footer
 footer:
