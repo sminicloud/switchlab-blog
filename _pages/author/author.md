@@ -9,7 +9,7 @@ layouts_gallery:
   - url: /assets/images/project-example.png
     image_path: /assets/images/project-example.png
     alt: "Example of a project I worked on"
-last_modified_at: 2025-04-01
+last_modified_at: {{ page.last_modified_at }}
 author_profile: true
 toc: true
 ---
