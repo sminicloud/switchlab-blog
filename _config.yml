@@ -246,7 +246,6 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-  - jekyll-last-modified-at #Add this at 02 April 25
 
 # mimic GitHub Pages with --safe
 whitelist:
