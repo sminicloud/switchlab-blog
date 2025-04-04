@@ -17,19 +17,24 @@ Learn more on the [Author Page](/author/)
 
 ---
 
-## 📁 Structure
+## 🗂️ Structure
 
-```
+```text
 _pages/
-├── author/               → Author profile and personal background
-├── project/              → Single portfolio project documentation
-│   ├── overview.md       → Project overview
-│   ├── features.md       → Implemented features
-│   ├── tech-stack.md     → Tech stack used
-│   ├── retrospective.md  → Retrospective notes
-│   ├── dev-logs/         → Daily dev logs (initial setup, API design, etc.)
-│   └── ...
-└── home.md               → Landing page
+├── author/                    → Author profile and personal background
+├── project/                   → Single portfolio project documentation
+│   ├── overview.md            → Project overview
+│   ├── dev-logs/              → Daily dev logs (initial setup, API design, etc.)
+│   │   ├── initial-setup.md
+│   │   ├── schema-design.md
+│   │   ├── api-design.md
+│   │   └── deployment.md
+│   ├── features.md            → Implemented features
+│   ├── tech-stack.md          → Tech stack used
+│   ├── challenges.md          → Challenges faced & how they were tackled
+│   └── retrospective.md       → Reflections and takeaways
+├── home.md                    → Landing page
+└── project.md                 → Project section entry point
 ```
 
 ---

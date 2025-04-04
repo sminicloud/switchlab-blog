@@ -18,9 +18,11 @@ project:
         url: /project/dev-logs/api-design/
       - title: "4. Deployment"
         url: /project/dev-logs/deployment/
+  - title: "Implemented Features"
+    url: /project/features/
   - title: "Tech Stack"
     url: /project/tech-stack/
   - title: "Challenges"
     url: /project/challenges/
-  - title: "Conclusion"
-    url: /project/conclusion/
+  - title: "Retrospective"
+    url: /project/retrospective/
