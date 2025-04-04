@@ -1,20 +1,23 @@
 # 📄 Features Template (`_drafts/features-template.md`)
 ---
-title: "Implemented Features"
+title: "[{{ site.time | date: "%d-%m-%Y" }}] Feature Summary"
+date: {{ site.time | date: "%Y-%m-%d" }}
 permalink: /project/features/
 layout: single
 sidebar:
   nav: "project"
-toc: true
 ---
 
-## 🚀 Implemented Features
+## ✨ Feature Summary
 
-- Feature 1: Brief explanation
-- Feature 2: Brief explanation
-- Feature 3: Brief explanation
+### ✅ List of Features
+- Sign-up / Login
+- Create and edit TODO list
+- Weather-based schedule suggestions
 
 ---
+
+*Last updated: {{ site.time | date: "%d-%m-%Y" }}*
 
 <!-- ✨ features-template.md
 🌟 역할:

@@ -1,24 +1,31 @@
 # 📄 Challenges Template (`_drafts/challenges-template.md`)
 ---
-title: "Challenges"
+title: "[{{ site.time | date: "%d-%m-%Y" }}] Challenges Faced"
+date: {{ site.time | date: "%Y-%m-%d" }}
 permalink: /project/challenges/
 layout: single
 sidebar:
   nav: "project"
-toc: true
 ---
 
-## 🐞 Challenges & Solutions
+## 🚧 Challenges Faced
 
-### 🔍 Issue 1: [Short title]
-- **Problem:**
-- **Attempted solutions:**
-- **Final resolution:**
+### 😵 Problems
+- Sidebar not rendering on About page
+- Font Awesome icons not showing
 
-### 🔍 Issue 2: [Short title]
-...
+### 🔍 Investigation
+- Checked head.html, CDN, author-profile.html
+- Found issue in `site.author` assignment
+
+### ✅ Solution
+- Corrected `author` value in `_config.yml`
+- Re-enabled Font Awesome in head.html
 
 ---
+
+*Last updated: {{ site.time | date: "%d-%m-%Y" }}*
+
 
 <!-- ⚔️ challenges-template.md
 🔥 역할:

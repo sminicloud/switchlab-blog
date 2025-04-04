@@ -1,14 +1,20 @@
 # 📄 Dev Log Template (`_drafts/dev-log-template.md`)
 ---
-title: "[Step]. [Title]"
-permalink: /project/dev-logs/[slug]/
+title: "[{{ site.time | date: "%d-%m-%Y" }}] Dev Log"
+date: {{ site.time | date: "%Y-%m-%d" }}
+permalink: /project/dev-log/
 layout: single
 sidebar:
   nav: "project"
-toc: true
 ---
 
-## ✨ [Title] Step
+## 🛠️ Dev Log / [Title] Step
+
+> Daily or milestone-based development logs
+
+## 📅 {{ site.time | date: "%d-%m-%Y" }}
+
+## ✅ Summary of Today's Work
 
 ### ✅ Goals
 - Goal 1
@@ -18,10 +24,12 @@ toc: true
 - What was done, step-by-step
 - Code snippets, screenshots
 
-### 🧠 Notes
+### 🧠 Notes & Issues
 - Lessons learned, problems faced
 
 ---
+
+*Last updated: {{ site.time | date: "%d-%m-%Y" }}*
 
 <!-- 🛠 dev-log-template.md
 📘 역할:

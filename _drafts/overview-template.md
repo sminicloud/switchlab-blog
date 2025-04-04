@@ -1,41 +1,30 @@
 # 📄 Overview Template (`_drafts/overview-template.md`)
 ---
----
-title: "Overview"
+title: "[{{ site.time | date: "%d-%m-%Y" }}] Project Overview"
+date: {{ site.time | date: "%Y-%m-%d" }}
 permalink: /project/overview/
 layout: single
 sidebar:
   nav: "project"
-toc: true
 ---
 
-## 📌 Project Overview
+## 📘 Project Overview
 
-- Brief summary of the project
-- Key goals and motivations
-- Target users / audience
-- Main features in one sentence
+> This project was initiated to achieve [insert goal or purpose].
 
----
+### 🔧 Tech Stack
+- Java (Spring Boot)
+- JavaScript (Node.js)
+- PostgreSQL
 
-## 🎯 Objectives
-
-- Objective 1
-- Objective 2
-- Objective 3
-
----
-
-## 🗓️ Timeline
-
-| Phase | Date       | Description            |
-|-------|------------|------------------------|
-| 1     | yyyy-mm-dd | Initial Setup          |
-| 2     | yyyy-mm-dd | Schema Design          |
-| 3     | yyyy-mm-dd | API Design             |
-| 4     | yyyy-mm-dd | Deployment             |
+### 🎯 Core Features
+- User authentication
+- Schedule recommendation
+- Backend API integration
 
 ---
+
+*Last updated: {{ site.time | date: "%d-%m-%Y" }}*
 
 <!-- 📄 overview-template.md
 🧭 역할:

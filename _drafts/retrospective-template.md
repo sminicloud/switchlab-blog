@@ -1,28 +1,30 @@
 # 📄 Retrospective Template (`_drafts/retrospective-template.md`)
 ---
-title: "Retrospective"
+title: "[{{ site.time | date: "%d-%m-%Y" }}] Project Retrospective"
+date: {{ site.time | date: "%Y-%m-%d" }}
 permalink: /project/retrospective/
 layout: single
 sidebar:
   nav: "project"
-toc: true
 ---
 
-## 🔄 Retrospective
+## 🧠 Project Retrospective
 
-### 😄 What went well
-- Thing 1
-- Thing 2
+### 🎯 What went well
+- Clear initial planning helped smooth development
+- Documenting on GitHub Blog was very useful
 
-### 😕 What could have gone better
-- Issue 1
-- Issue 2
+### 🤔 What could have been better
+- Time management
+- Debugging took longer than expected
 
-### ✨ Takeaways
-- Key learnings
-- Improvements for next time
+### 📌 Improvements for next time
+- Break tasks into smaller chunks
+- Set clearer deadlines
 
 ---
+
+*Last updated: {{ site.time | date: "%d-%m-%Y" }}*
 
 <!-- 🪞 retrospective-template.md
 🔁 역할:

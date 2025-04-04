@@ -1,24 +1,38 @@
 # 📄 Tech Stack Template (`_drafts/tech-stack-template.md`)
 ---
-title: "Tech Stack"
+title: "[{{ site.time | date: "%d-%m-%Y" }}] Tech Stack"
+date: {{ site.time | date: "%Y-%m-%d" }}
 permalink: /project/tech-stack/
 layout: single
 sidebar:
   nav: "project"
-toc: true
 ---
 
 ## 🧰 Tech Stack
 
-| Category      | Tool/Tech        | Purpose                  |
-|---------------|------------------|---------------------------|
-| Language      | JavaScript       | Main backend language     |
-| Framework     | Node.js + Express| Web server                |
-| DB            | MongoDB          | Database                  |
-| Deployment    | GitHub Pages     | Hosting                   |
-| Dev Tools     | VS Code          | Editor                    |
+> Tools and technologies used in this project.
+
+### ⚙️ Backend
+- Java (Spring Boot)
+- Node.js (Express)
+
+### 💾 Database
+- PostgreSQL
+- SQLite (local testing)
+
+### ☁️ Deployment
+- GitHub Pages
+- AWS EC2 (planned)
+
+### 🔧 Others
+- Git + GitHub
+- Markdown + Liquid
+- Jekyll (Minimal Mistakes theme)
 
 ---
+
+*Last updated: {{ site.time | date: "%d-%m-%Y" }}*
+
 
 <!-- 🧱 tech-stack-template.md
 🔧 역할:
