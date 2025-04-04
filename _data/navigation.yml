@@ -3,3 +3,24 @@ main:
     url: "/author/"
   - title: "Project"
     url: "/project/"
+
+project:
+  - title: "Overview"
+    url: /project/overview/
+  - title: "Development Logs"
+    url: /project/dev-logs/
+    children:
+      - title: "1. Initial Setup"
+        url: /project/dev-logs/initial-setup/
+      - title: "2. Schema Design"
+        url: /project/dev-logs/schema-design/
+      - title: "3. API Design"
+        url: /project/dev-logs/api-design/
+      - title: "4. Deployment"
+        url: /project/dev-logs/deployment/
+  - title: "Tech Stack"
+    url: /project/tech-stack/
+  - title: "Challenges"
+    url: /project/challenges/
+  - title: "Conclusion"
+    url: /project/conclusion/
